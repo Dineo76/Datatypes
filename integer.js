@@ -1,7 +1,7 @@
-function add(a, b) {
+function add(a,b) {
     return a + b;
   }
   
-  let result = add(5, 3);
-  console.log(result)
+  let result = add( 9, 2);
+  console.log( typeof result + '-' + ' The answer is ' + result) 
   
