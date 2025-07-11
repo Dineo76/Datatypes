@@ -3,6 +3,13 @@ function calculateArea(radius) {
     return area;
   }
   result = calculateArea(2.5);
-  console.log(result);
-  
+
+  let isFloat = result % 1 !== 0;
+
+  console.log(
+    (typeof result) +
+      (isFloat ? ' (float-like)' : '') +
+      ' - The answer is ' +
+      result
+  ) 
   
